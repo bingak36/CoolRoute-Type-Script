@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as *;
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: $line-height-tight;
+}
+
+h1 {
+  font-size: $font-size-heading-1;
+}
+
+h2 {
+  font-size: $font-size-heading-2;
+}
+
+h3 {
+  font-size: $font-size-heading-3;
+}
+
+p {
+  font-size: $font-size-body;
+  line-height: $line-height-base;
+}

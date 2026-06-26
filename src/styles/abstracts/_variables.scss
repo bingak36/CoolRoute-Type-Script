@@ -1,0 +1,79 @@
+// ===== Colors =====
+$color-sky-50: #f0f9ff;
+$color-sky-100: #e0f2fe;
+$color-sky-300: #7dd3fc;
+$color-sky-500: #0ea5e9;
+$color-sky-600: #0284c7;
+$color-sky-700: #0369a1;
+$color-sky-800: #0074a8;
+$color-cyan-400: #12aeea;
+$color-blue-600: #2454d8;
+$color-mint-400: #34d399;
+$color-text: #1f2937;
+$color-muted: #6b7280;
+$color-border: #dbeafe;
+$color-white: #ffffff;
+// Brand (design tokens)
+$color-frost: #19a7e0;
+$color-deep: #1e3a8a;
+$color-stroke-2: #d4dbe5;
+$color-ghost-hover-bg: #f3f0fd;
+
+// ===== Gradients =====
+$gradient-brand: linear-gradient(120deg, $color-frost, $color-deep);
+
+// ===== Shadows =====
+$shadow-button: 0 10px 26px rgba(37, 99, 235, 0.32);
+$shadow-button-hover: 0 14px 34px rgba(37, 99, 235, 0.42);
+
+// ===== Font size scale (from design tokens) =====
+$font-size-xxs: 12px; // badge
+$font-size-xs: 13px; // section sm
+$font-size-s: 14px; // button
+$font-size-m: 16px; // body / section md
+$font-size-l: 18px; // section subtitle
+$font-size-xl: 22px; // section lg
+$font-size-xxl: 52px; // section title
+$font-size-display: 60px; // hero title
+
+// ===== Semantic font sizes =====
+// Headings / titles
+$font-size-hero-title: $font-size-display; // 60px
+$font-size-section-title: $font-size-xxl; // 52px
+$font-size-section-lg: $font-size-xl; // 22px
+$font-size-section-subtitle: $font-size-l; // 18px
+// Body
+$font-size-body: $font-size-m; // 16px
+$font-size-bold: 16.8px;
+$font-size-nav: 15.2px;
+$font-size-section-sm: $font-size-xs; // 13px
+// Button
+$font-size-button: $font-size-s; // 14px
+$font-size-button-icon: $font-size-l; // 18px
+// Badge
+$font-size-badge: $font-size-xxs; // 12px
+$font-size-badge-lg: $font-size-m; // 16px
+
+// ===== Heading aliases (h1/h2/h3) =====
+$font-size-heading-1: $font-size-section-title; // 52px
+$font-size-heading-2: $font-size-section-lg; // 22px
+$font-size-heading-3: $font-size-section-subtitle; // 18px
+
+// ===== Font weights =====
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// ===== Line heights =====
+$line-height-none: 1;
+$line-height-tight: 1.25;
+$line-height-base: 1.7;
+
+// ===== Border radius =====
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-pill: 999px;
+$radius-full: 50%;
+
+// ===== Layout =====
+$layout-max-width: 1200px;
+$header-height: 72px;

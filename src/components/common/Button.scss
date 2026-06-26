@@ -1,0 +1,49 @@
+@use '../../styles/abstracts/variables' as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border: 1px solid transparent;
+  border-radius: $radius-pill;
+  appearance: none;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-button;
+  line-height: $line-height-none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &--primary {
+    border-color: transparent;
+    background: $gradient-brand;
+    color: $color-white;
+    box-shadow: $shadow-button;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: $shadow-button-hover;
+    }
+  }
+
+  &--outline {
+    background: $color-white;
+    border-color: $color-stroke-2;
+    color: $color-text;
+
+    &:hover {
+      border-color: $color-deep;
+      color: $color-deep;
+      background: $color-ghost-hover-bg;
+    }
+  }
+
+  &__arrow {
+    display: inline-flex;
+    align-items: center;
+    font-size: $font-size-button-icon;
+    line-height: $line-height-none;
+  }
+}
